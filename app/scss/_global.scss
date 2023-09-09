@@ -1,0 +1,61 @@
+body {
+  color: $dark;
+  @extend %rubik-regular;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: $silver-white;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.logo {
+  transition: opacity 0.4s linear, box-shadow 0.4s linear;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 3px $orange;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.section {
+  padding-bottom: 120px;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 60px;
+  font-size: 36px;
+  color: #363853;
+  @extend %rubik-medium;
+}
+
+.button {
+  color: $white;
+  background-color: $orange;
+  padding: 12px 37px;
+  border-radius: 6px;
+  transition: box-shadow 1s, background-color 1s, color 1s;
+}
+.button:focus {
+  background-color: rgba(255, 104, 56, 0.1);
+  box-shadow: 0px 0px 0px 2px rgba(255, 104, 56, 0.7);
+  color: $orange;
+}
+.button:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 104, 56, 0.7);
+  background-color: $white;
+  color: $orange;
+}
+.button:active {
+  background-color: rgba(255, 104, 56, 0.1);
+}

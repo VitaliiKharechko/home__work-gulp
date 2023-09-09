@@ -1,0 +1,26 @@
+$orange: #ff6838;
+$dark: #31352b;
+$white: #fff;
+$silver: #ececec;
+$blue: #363853;
+$silver-white: #f9faff;
+
+
+%bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+
+%rubik-medium{
+  font-family: "Rubik-Medium";
+  font-weight: 500;
+}
+%rubik-regular{
+  font-family: "Rubik-Regular";
+  font-weight: 400;
+}
+%rubik-light{
+  font-family: "Rubik-Light";
+  font-weight: 300;
+}

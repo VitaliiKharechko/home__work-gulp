@@ -59,7 +59,7 @@ function build() {
 }
 
 function cleanDist() {
-  return del("dist")
+  return del("dist");
 }
 
 function watching() {

@@ -20,5 +20,8 @@
     "imagemin": "^8.0.1",
     "jquery": "^3.7.1",
     "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "svgstore": "^3.0.1"
   }
 }
